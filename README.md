@@ -10,11 +10,11 @@ Flask:
 As this project is also in development, the Flask component ships with a Python Venv and associated packages. 
 To begin, go to the Flask subdirectory and type:
 
-'''
+```
 source bin/activate
-'''
+```
 
-Exiting this venv is possible by typing '''deactivate'''
+Exiting this venv is possible by typing ```deactivate```
 
 For multithreading to work properly with internal Bokeh server, the flask backend needs to be run with gunicorn.
 In the Flask directory type:
