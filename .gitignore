@@ -14,6 +14,7 @@ Flask/app/UserSettings.py
 Flask/app/ProcessedData.h5ad
 Flask/app/routes.py
 Flask/app/templates/
+Flask/app/_pycache_
 React/package-lock.json
 React/TODO LIST.txt
 React/src/old_code.txt
