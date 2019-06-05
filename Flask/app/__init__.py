@@ -84,4 +84,4 @@ if not app.debug:
     app.logger.setLevel(gunicorn_logger.level)
     app.logger.info('Portal startup')
 
-from app import routes
+#from app import routes

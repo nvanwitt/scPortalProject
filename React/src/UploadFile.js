@@ -1,3 +1,4 @@
+import './bootstrap/css/bootstrap.css'
 import React from 'react';
 import { Button, Modal, FormGroup, FormControl, ControlLabel, HelpBlock, Radio } from 'react-bootstrap';
 import { Redirect } from 'react-router-dom';

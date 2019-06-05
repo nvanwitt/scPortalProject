@@ -1,4 +1,4 @@
-import 'bootstrap/css/bootstrap.css'
+import './bootstrap/css/bootstrap.css'
 import React from 'react';
 import Button from 'react-bootstrap/lib/Button';
 import StatusBar from './StatusBar.js';

@@ -1,4 +1,4 @@
-import 'bootstrap/css/bootstrap.css'
+import './bootstrap/css/bootstrap.css'
 import React from 'react';
 // import Select from 'react-select'
 import AsyncSelect from 'react-select/lib/Async';

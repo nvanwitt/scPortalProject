@@ -1,4 +1,4 @@
-import 'bootstrap/css/bootstrap.css'
+import './bootstrap/css/bootstrap.css'
 import React from 'react';
 import {Panel} from 'react-bootstrap';
 

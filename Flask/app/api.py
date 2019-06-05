@@ -74,7 +74,7 @@ def api_data():
             gene_listdb = adata.var['gene_ids']
         else:
             current_app.logger.info('Reading data from app...')
-            adata = sc.read_h5ad('/app/ProcessedData.h5ad')
+            adata = sc.read_h5ad(os.path.join(os.getcwd(),'app/ProcessedData.h5ad'))
             gene_listdb = adata.var['gene_ids']
         searchKey = json.loads(request.data)['searchKey']
         gene_listdb = gene_listdb.filter(regex=searchKey, axis=0).index.get_values().tolist()

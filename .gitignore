@@ -14,11 +14,11 @@ Flask/app/UserSettings.py
 Flask/app/ProcessedData.h5ad
 Flask/app/routes.py
 Flask/app/templates/
-React/react_apptest.sublime-project
-React/react_apptest.sublime-workspace
 React/package-lock.json
 React/TODO LIST.txt
 React/src/old_code.txt
 React/src/testBokeh.js
 React/src/test.js
 React/src/backup.js
+React/PortalReact.sublime-project
+React/PortalReact.sublime-workspace
