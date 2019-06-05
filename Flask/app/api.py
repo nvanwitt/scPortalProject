@@ -54,13 +54,6 @@ def api_validateLogin():
 # Single-Cell Portal API endpoint for Gene List
 @apiBP.route('/data', methods=['GET', 'POST'])
 def api_data():
-    '''
-    if os.path.exists('/Users/nvanwitt/Python Projects/Venvs/Projects/CalBot/app/ProcessedData.h5ad'):
-        adata = sc.read_h5ad('/Users/nvanwitt/Python Projects/Venvs/Projects/CalBot/app/ProcessedData.h5ad')
-        gene_listdb = adata.var['gene_ids']
-    else:
-        gene_listdb = pd.read_csv('/Users/nvanwitt/Desktop/Gene_List.csv', index_col=0, header=None)
-    '''
     if request.method == 'GET':
         return redirect(url_for('index'))
 
